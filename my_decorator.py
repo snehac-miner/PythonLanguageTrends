@@ -13,3 +13,12 @@ def say_hello():
     print("Hello!")
 
 say_hello()
+
+
+#Running say_hello() will produce the following output:
+
+/*
+Something is happening before the function is called.
+Hello!
+Something is happening after the function is called.
+*/
