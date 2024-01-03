@@ -1,3 +1,6 @@
+/* Let's create a simple example of a Python decorator. We'll make a decorator that prints a statement before and after the execution of a function. 
+This is a common use case for decorators, often used in logging or debugging. */
+
 def my_decorator(func):
     def wrapper():
         print("Something is happening before the function is called.")
